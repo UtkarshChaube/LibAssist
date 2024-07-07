@@ -12,7 +12,7 @@ module.exports = function (req, res, next) {
         message: "Invalid token",
       });
     }
-  } catch (error) {
+  } catch (error) { 
     return res.send({
       success: false,
       message: error.message,
